@@ -1,0 +1,696 @@
+*{
+    font-family: sans-serif;
+}
+
+header .header{
+    background-color: transparent;
+    height: auto;
+    margin: 0 0;
+    padding: 20px;
+}
+
+.back-clip{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 10px 50px;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.navbar .logo img{
+    width: 100px;
+}
+
+
+.navbar  nav{
+    width: 150px;
+}
+
+.navbar  nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2em;
+}
+
+.navbar  nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 247, 247);
+    transition: linear 0.2s;
+}
+
+.navbar  nav ul li a:hover{
+    padding: 10px;
+    border-bottom: solid 4px rgb(4, 4, 104);
+    transition: linear 0.2s;
+}
+
+.navbar .portfolioBtn a{
+    background-color: #654DFF;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.navbar .portfolioBtn a:hover{
+    transition: all 0.2s;
+    background-color: #140865;
+    border-radius: 20px;
+
+}
+
+.header .profession{
+    width: 70%;
+    margin: 100px auto;
+    color: white;
+}
+
+.header .profession h1{
+    font-size: 5em;
+    text-align: center;
+    margin: 12px;   
+    -webkit-text-stroke: #0E0A28 1px;
+}
+
+.profession .details{
+    width: 90%;
+    margin: 70px auto;
+}
+
+.professionBtn{
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.professionBtn a{
+    background-color: #654DFF;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.professionBtn a:hover{
+   transition: all 0.2s;
+    background-color: #140865;
+    border-radius: 20px;
+}
+
+.about{
+    height: auto;
+    display: flex;
+    width:69%;
+    margin: 150px auto;
+    justify-content: center;
+    gap: 2em;
+}
+
+.about h2{
+    font-size: 2em;
+}
+
+.about h3{
+    color: #7D7C84;
+    margin: 0;
+}
+
+.about .para{
+    margin-bottom: 48px;
+}
+
+.about p{
+    color: #7D7C84;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.about .profileimg img{
+    width: 300px;
+    box-shadow: -25px 25px 1px 7px rgba(0, 0, 0, 0.5);
+}
+
+.about .details .aboutBtn a{
+    background-color: #654DFF;
+    transition: all 0.2s;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 100px;
+    width: 400px;
+}
+
+.about .details .aboutBtn a:hover{
+     background-color:#140865;
+    transition: all 0.2s;
+    border-radius: 20px;
+
+}
+
+.projects{
+    background-color: #0E0A28;
+    color: white;
+    padding: 100px;
+    margin: 0;
+}
+
+.projects img{
+    width: 220px;
+}
+
+.projects a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+.projects a:hover{
+    transition: all 0.2s;
+    background-color: white;
+    color: #0E0A28;
+    border-radius: 20px;
+
+}
+
+.projects .projectsLinks{
+    margin: 100px auto;
+    width: 60%;
+}
+
+.projects .graphic,
+.projects .website,
+.projects .uxDesign{
+    width: 100%;
+    display: flex;
+    margin-bottom: 70px;
+    gap: 2em;
+}
+
+.projects .details h2,
+.projects .details h4{
+    margin: 0;
+    color: #7D7C84;
+}
+
+.projects .para{
+    margin: 10px 0;
+}
+
+.icons{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+}
+
+.contact{
+    width: 70%;
+    margin: 100px auto;
+}
+
+.contact h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+.contact .para{
+    width: 70%;
+    margin: 10px auto;
+    color: #7D7C84;
+}
+
+.contact .email{
+    text-align: center;
+}
+
+.contact a{
+    color: #7D7C84;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: auto;
+    padding: 20px;
+}
+
+footer a{
+    color: white;
+    margin-bottom: 60px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+.footer .links{
+    margin-top: 60px;
+}
+
+footer p{
+    text-align: center;
+    color: #7D7C84;
+    font-weight: bold;
+    margin: 50px 0 10px 0;
+}
+
+/*about*/
+.self{
+    width: 70%;
+    margin: 100px auto;
+    color: #7D7C84;
+}
+
+.achievement{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.achievement img{
+    width: 200px;
+}
+
+.awardPic, .certifypic, .tisa{
+    display: flex;
+    margin: 100px;
+    gap: 2em;
+}
+
+.achievement h2{
+    margin: 0;
+}
+
+.achievement p{
+    color: #7D7C84;
+}
+
+.final{
+    width: 70%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.final p{
+    text-align: left;
+}
+
+.last{
+    text-align: center;
+    margin: 150px;
+
+}
+
+.last a{
+    background-color: #654DFF;
+    transition: all 0.2s;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+.last a:hover{
+    background-color: #140865   ;
+    transition: all 0.2s; 
+    border-radius: 20px;
+}
+
+/*portfolio*/
+.webDesign, .graphicDesign{
+    width: 70%;
+    margin: 100px auto;
+}
+
+.webDesign a{
+    color: black;
+    text-decoration: none;
+}
+
+.webDesign img, .graphicDesign img{
+    width: 100%;
+}
+
+.webHeading, .graphicHeading{
+    margin: 100px 0;
+}
+
+.projectOne, .projectTwo, .projectThree{
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10PX;
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.5);
+    transition: 0.2s all;
+}
+
+.projectOne p, .projectTwo p, .projectThree p{
+    color: #7D7C84;
+}
+
+.projectOne:hover, .projectTwo:hover, .projectThree:hover{
+    padding: 25px;
+    transition: 0.2s all;
+}
+
+ .projectTwo{
+    position: relative;
+    top: 15em;
+ }
+
+.webProjects, .graphicProjects{
+    display: flex;
+    gap: 2em;
+}
+
+.graphicProjects{
+    margin-bottom: 10em;
+}
+
+.graphicDesign{
+    width: 70%;
+    margin: 27em auto auto;
+}
+
+.recommend{
+    width: 30%;
+    margin-top: 20em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recommend a{
+    color: white;
+    background-color: #654DFF;
+    text-decoration: none;
+    padding: 15px;
+    transition: all 0.2s;
+
+}
+
+.recommend a:hover{
+    border-radius: 20px;
+    background-color: #140865;
+    transition: all 0.2s;
+}
+
+.stars span{
+    color: gold;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.testimonial{
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.testimonial img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.testimonial .card h3{
+    margin: 5px;
+}
+
+.testimonial .card .image{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.testimonial .card p{
+    color: #7D7C84;
+    margin: 0;
+}
+
+.testimonial .card{
+    width: 30%;
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    background-color: white;
+}
+
+.testimony{
+    margin: 60px auto;
+}
+
+.testimony p{
+    font-size: 1.1em;
+}
+
+@media (max-width: 700px){
+    nav{
+        display: none;
+    }
+
+    .navbar {
+        padding: 10px 5px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .navbar .portfolioBtn a{
+        display: none;
+    }
+
+    .navbar .logo{
+    text-align: center;
+    margin: 0 auto;
+    }
+
+    header .header{
+        background-color: transparent;
+        height: auto;
+        margin: 0 0;
+    }
+
+    .header .profession{
+        width: 100%;
+        margin: 10px auto;
+        color: white;
+        text-align: center;
+    }
+
+    .header .profession h1{
+        font-size: 3em;
+        text-align: center;
+        margin: 12px;   
+        -webkit-text-stroke: #0E0A28 1px;
+    }
+
+    .profession .details{
+        width: 90%;
+        margin: 70px auto;
+        color:#7D7C84;
+    }
+
+    .about{
+        display: block;
+        width:90%;
+        text-align: center;
+    }
+
+    .about h2{
+        font-size: 2em;
+    }
+
+    .about h3{
+        color: #7D7C84;
+        margin: 0;
+    }
+
+    .about .para{
+        margin-bottom: 48px;
+    }
+
+    .about p{
+        color: #7D7C84;
+        font-size: 1.5em;
+        margin: 5px;
+    }
+
+    .about .profileimg img{
+        width: 100%;
+        box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+    }
+
+    .projects{
+        background-color: #0E0A28;
+        color: white;
+        padding: 50px;
+        margin: 0;
+    }
+
+    .projects img{
+        width: 100%;
+    }
+
+    .projects .graphic,
+    .projects .website,
+    .projects .uxDesign{
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    .projects .projectsLinks{
+        margin: 100px auto;
+        width: 100%;
+        
+    }
+
+    .projectHead{
+        text-align: center;
+    }
+
+    .contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    .icons{
+        width: 100%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .icons img{
+        margin: 5px;
+    }
+
+    .footer{
+        display: block;
+        justify-content: center;
+        gap: 3em;
+    }
+
+    .self{
+        text-align: center;
+        width: 90%;
+    }
+
+    .achievement{
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .achievement img{
+        width: 100%;
+    }
+
+    .achievement p{
+        text-align: justify;
+    }
+
+    .awardPic, .certifypic, .tisa{
+        display: block;
+        margin: 100px auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    .final p{
+        text-align:justify;
+    }
+
+    .final{
+        width: 90%;
+    }
+
+    .last{
+        width: 90%;
+        text-align: center;
+        margin: 8%;
+    }
+
+    .last a{
+        padding: 15px;
+    }
+
+    /*portfolio*/
+    .webDesign, .graphicDesign{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .webDesign img, .graphicDesign img{
+        width: 100%;
+    }
+
+    .webHeading, .graphicHeading{
+        margin: 50px 0;
+    }
+
+    .projectOne, .projectTwo, .projectThree{
+        width: 70%;
+        margin: 40px auto;
+    }
+
+    .projectTwo{
+        position: relative;
+        top: 0em;
+    }
+
+    .webProjects, .graphicProjects{
+        display: block;
+    }
+
+    .graphicProjects{
+        margin-bottom: 0em;
+    }
+
+    .graphicDesign{
+        width: 90%;
+        margin: 1em auto auto;
+    }
+
+    .graphicHeading{
+        margin-top: 130px;
+    }
+
+    .recommend{
+        width: 90%;
+        margin-top: 9em;
+    }
+
+    .testimonial{
+        width: 90%;
+        margin: 30px auto;
+        display: block;
+    }   
+    
+    .testimonial .card{
+        width: 70%;
+        margin: 90px auto;
+    }
+}

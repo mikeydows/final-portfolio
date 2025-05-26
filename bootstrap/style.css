@@ -1,0 +1,11 @@
+#airpodMax{
+    position: relative;
+    top: 150px;
+}
+
+@media (max-width:1000px){
+    #airpodMax img{
+        position: relative;
+        top: 40px;
+    }
+}

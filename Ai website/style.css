@@ -1,0 +1,302 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin: 10px 50px;
+}
+
+header a{
+    border: 2px solid midnightblue;
+    color: midnightblue;
+    padding: 5px 9px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.7s;
+}
+
+header a:hover{
+    transition: all 0.3s;
+    color: white;
+    background-color: midnightblue;
+}
+
+.info {
+    font-size: 2rem;
+    transform: translateX(-100%);
+    transition: transform 1s ease-in-out;
+  }
+
+  .info.show {
+    transform: translateX(0);
+  }
+
+
+.intro{
+    display: flex;
+    margin: 100px 60px 100px 60px;
+    justify-content: space-around;
+    transition: opacity 5s;
+}
+
+
+.intro h2{
+    color: white;
+    font-weight: bold;
+    background-color: midnightblue;
+    padding: 5px 0 0 20px;
+    border-radius: 10px;
+}
+
+.intro aside{
+    width: 30%;
+    text-align: left;
+}
+
+.intro section{
+    width: 40%;
+}
+
+
+.concept .text{
+    text-align: center;
+    width: 50%;
+    margin: 130px auto;
+}
+
+.overview .types{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.overview .types .category{
+    width: 30%;
+    box-shadow: 0 0 5px;
+    padding: 10px 25px 30px 25px;
+}
+
+.overview .types .category:hover{
+    background-color: rgb(206, 224, 248);
+}
+
+.categories{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.fields{
+    margin: 150px auto 0 auto;
+    width: 70%;
+}
+
+.fields .head{
+    text-align: center;
+}
+
+.typeField aside, .typeField article, .typeField section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    transition: all 0.8s;
+
+}
+
+.typeField aside:hover, .typeField article:hover, .typeField section:hover{
+    padding: 20px;
+    transition: all 0.5s;
+}
+.typeField aside .groupAside, .groupArticle, .groupSection{
+    width: 40%;
+}
+
+.fieldBtm{
+    width: 50%;
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
+
+.subHistory{
+    margin: 100px auto;
+    text-align: center;
+    width: 50%;
+}
+
+.subHistory .images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.history-info .first-histories{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.history-info .second-histories{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.history-info aside{
+    background-color: midnightblue;
+    padding: 30px;
+    border-radius: 40px;
+    color: white;
+    margin:0 10px ;
+    width: 25%;
+}
+
+.history-info section{
+    box-shadow: 0 0 3px 1px;
+    padding: 30px;
+    border-radius: 40px;
+    width: 25%;
+    transition: linear 0.7s;
+}
+
+.history-info section:hover{
+    box-shadow: 0 0 5px 3px;
+    transition: linear 0.7s;
+} 
+
+.history-info aside:hover{
+    box-shadow: 0 0 5px 3px;
+    transition: linear 0.7s;
+}
+
+@media (orientation: portrait){
+    .title{
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        right: 13px;
+    }
+
+    .title h3{
+        width: 100%;
+    }
+
+    .intro{
+        margin: 100px 0;
+        display: block;
+    }
+
+    .intro img{
+        height: 300px;
+
+    }
+
+    .intro aside{
+        margin: 20px auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro section{
+        width: 95%;
+        margin: 150px 10px 50px 10px;
+    }
+
+    .images1 img{
+        height: 90px;
+    }
+
+    .concept .text{
+        width: 90%;
+    }
+
+    .categories{
+        display: block;
+    }
+
+.overview .types .category{
+        width: 90%;
+        margin-bottom: 30px ;
+    }
+
+    .typeField aside, .typeField section, .typeField article{
+        display: block;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .typeField aside .groupAside, .groupArticle, .groupSection{
+        display: block;
+        width: 90%;
+    }
+
+    .fieldBtm{
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .fieldBtm p{
+        width: 99%;
+    }
+
+    .subHistory .images img{
+        height: 150px;
+    }
+
+    .subHistory .images{
+        justify-content: space-between;
+    }
+
+    .history-info .first-histories{
+        display: block;
+        width: 100%;
+        margin: 50px auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .history-info .second-histories{
+        display: block;
+        justify-content: space-between;
+        margin: 0px auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .history-info aside{
+        background-color: midnightblue;
+        padding: 30px;
+        border-radius: 40px;
+        color: white;
+        margin: 10px auto ;
+        width: 80%;
+    }
+    
+    .history-info section{
+        box-shadow: 0 0 3px 1px;
+        padding: 30px;
+        border-radius: 40px;
+        width: 80%;
+        margin: 10px auto ;
+        transition: linear 0.7s;
+    }
+    
+    .history-info section:hover{
+        box-shadow: 0 0 5px 3px;
+        transition: linear 0.7s;
+    } 
+    
+    .history-info aside:hover{
+        box-shadow: 0 0 5px 3px;
+        transition: linear 0.7s;
+    }
+    
+}

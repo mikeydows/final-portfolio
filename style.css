@@ -2,6 +2,30 @@
     font-family: sans-serif;
 }
 
+#showBtn{
+    background-color: white;
+    padding: 7px;
+    display: none;
+}
+
+#sidepage{
+    padding: 20px;
+    background-color:#7D7C84;
+    width: 80%;
+    margin: 0;
+    height: 400px;
+    position: absolute;
+    display: none;
+}
+
+#sidepage a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 130px;
+    font-size: 1.4em;
+}
+
 header .header{
     background-color: transparent;
     height: auto;
@@ -481,10 +505,6 @@ footer p{
         display: none;
     }
 
-    .navbar .logo{
-    text-align: center;
-    margin: 0 auto;
-    }
 
     header .header{
         background-color: transparent;
@@ -693,4 +713,19 @@ footer p{
         width: 70%;
         margin: 90px auto;
     }
+
+    #sidepage{
+        padding-top: 3em;
+        z-index: 1;
+        overflow-x: hidden;
+        width: 70%;
+        height: 570px;
+    }
+
+    
+#showBtn{
+    display: block;
+    padding: auto;
+    color: #140865;
+}
 }

@@ -1,0 +1,201 @@
+body{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+h2, h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6em;
+}
+
+.profile{
+    width: 80%;
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    gap: 4em;
+}
+
+.profilepic img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+.about{
+    width: 40%;
+}
+
+.socmedia{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.aboutbtn button{
+    background-color: rgb(126, 126, 240);
+    font-weight: bold;
+    padding: 13px;
+    border-radius: 20px;
+    box-shadow: 0 3px 2px 0.5px black;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    transition: linear 0.2s;
+}
+
+.aboutbtn button:hover{
+    padding: 16px;
+    transition: linear 0.1s;
+}
+
+.projects{
+    margin: 100px auto;
+    text-align: center;
+}
+
+.projectImg{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.projectImg img{
+    width: 100%;
+}
+
+.projectImg a{
+    text-decoration: none;
+    color: black;
+    transition: linear 0.2s;
+}
+
+.projectImg a:hover{
+    padding: 10px;
+    transition: linear 0.2s;
+}
+
+.skills{
+    width: 58%;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.skillsOne, .skillsTwo, .skillsThree{
+    margin: 50px auto;
+}
+
+.skills ul{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills ul li{
+    list-style-type: circle;
+    font-size: 1.8em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skills hr{
+    width: 40%;
+}
+
+.contact{
+    margin: 100px auto;
+}
+
+form{
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#textarea{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-size: 1.5em;
+}
+
+#submitBtn{
+    background-color:rgb(120, 120, 242);
+    font-size: 1.5em;
+    width: 150px;
+    padding: 10px;
+    box-shadow: 0 3px 2px 0.5px rgb(0.0, green, blue);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 70px auto;
+    font-weight: bold;
+    transition: linear 0.1s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#submitBtn:hover{
+    padding: 12px;
+    transition: linear 0.1s;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    font-size: 1.7em;
+    border-radius: 20px;
+}
+
+@media (max-width:1000px) {
+    .profile{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .about{
+        width: 80%;
+        text-align: center;
+    }
+
+    .projectImg{
+        flex-wrap: wrap;
+    }
+
+
+    form{
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    #textarea{
+        width: 60%;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 20px auto;
+        font-size: 1em;
+    }
+
+
+    textarea{
+        width: 60%;
+        height: 200px;
+        padding: 20px;
+        font-size: 1.7em;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        @keyframes appear{
+            from{
+                opacity: 0;
+                scale: 0.4;
+            }
+            to{
+                opacity: 1;
+                scale: 1;
+            }
+        }
+        
+        .block1, .block2, .block3{
+            animation: appear 5s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+
+        .scroll{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .block1{
+            width: 300px;
+            height: 100px;
+            background-color: blue;
+            margin-bottom: 100px;
+        }
+
+        .block2{
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            margin-bottom: 100px;
+
+        }
+
+        .block3{
+            width: 300px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 100px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; align-self: center; margin: 300px auto; font-size: 3em;">animate</h1>
+
+    <div class="scroll">
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+
+    </div>
+</body>
+</html>
